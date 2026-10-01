@@ -1,0 +1,14 @@
+{
+  "name": "camisa-interativa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ateliê da Camisa: camisa de alfaiataria interativa (medidas, tecidos, golas, punhos e botões) em WebGL.",
+  "scripts": {
+    "postinstall": "node scripts/vendor.js",
+    "vendor": "node scripts/vendor.js",
+    "start": "npx --yes http-server . -p 8080 -c-1 -o"
+  },
+  "dependencies": {
+    "three": "0.128.0"
+  }
+}
