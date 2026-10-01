@@ -1,1 +1,5 @@
 node_modules/
+# arquivo de outro projeto (terminal VESA), mantido só localmente
+page
+# páginas temporárias de teste
+_teste*.html
